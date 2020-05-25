@@ -1,0 +1,23 @@
+#exam { display: none;} 
+#instruct { display: none;}
+#anandlogo{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+  }
+ 
+ .txtshadow {
+  font-size: 25px;	 
+  color: white;
+  text-shadow: 2px 2px 2px black, 0 0 15px rgba(0,0,255,0.75), 0 0 5px darkblue;
+ }
+ 
+ 
+ .txtshadow2 {
+font-size: 35px;	 
+  color: white;
+  text-shadow: 2px 2px 2px black, 0 0 15px rgba(255,255,0,0.75), 0 0 5px rgba(100,100,0,0.75);
+ }
