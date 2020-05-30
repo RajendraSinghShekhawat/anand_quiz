@@ -1,0 +1,138 @@
+#exam { display: none;} 
+#instruct { display: none;}
+#anandlogo{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+  }
+ 
+ .txtshadow {
+  font-size: 25px;	 
+  color: white;
+  text-shadow: 2px 2px 2px black, 0 0 15px rgba(0,0,255,0.75), 0 0 5px darkblue;
+ }
+ 
+ 
+ .txtshadow2 {
+font-size: 35px;	 
+  color: white;
+  text-shadow: 2px 2px 2px black, 0 0 15px rgba(255,255,0,0.75), 0 0 5px rgba(100,100,0,0.75);
+ }
+ 
+ 
+ .txtshadow3 {	 
+  color: white;
+  /* text-shadow: 2px 2px 2px black, 0 0 15px rgba(255,0,0,0.75), 0 0 5px rgba(100,100,0,0.75); */
+  text-shadow: 2px 2px 2px black, 0 0 15px rgba(0,0,0,0.75), 0 0 5px rgba(100,100,0,0.75); 
+ }
+ 
+ .loca {
+	font-size: 12px;
+	font-weight: 400;
+	position: relative;
+	text-shadow: 2px 2px 2px black, 0 0 15px rgba(100,0,0,0.75), 0 0 5px darkblue;
+ }
+ 
+ .myButton {
+  float: left;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:8px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:1px 8px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+ 
+ .modal {
+  display: none;  /*Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left:10%;
+  margin-right:10%;
+  left: 0;
+  top: 0;
+  width: 80%; /* Full width */
+  height: 80%; /* Full height */
+  overflow-y: auto; /* Enable scroll if needed */
+  overflow-x: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */  
+}
+ }
+ .modal-cont {
+  color: #FFFFFF;
+  font-weight:400;
+  text-align: center;
+  background-color: #0000aa;
+  margin: 10%;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.95); /* Black w/ opacity */
+}
+.modal-cont h3 {
+  color: #FFFF00;
+  font-size:20px;
+  text-decoration: underline;
+}
+.modal-cont h4 {
+  color: #FFCC00;
+  font-size:20px;  
+  text-align: left;
+}
+.modal-cont p {
+  color: #FFFFFF;
+  font-size:16px;
+  text-align: justify;
+  text-justify: inter-word;  
+  text-align: left;
+}
+.close {
+  color: #FFFFFF;
+  float: right;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+
+.close:hover,
+.close:focus {
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.money {
+	background-image: url("../images/money.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #FFFF88;
+	text-shadow: 2px 1px 2px black, 0 0 5px rgba(0,0,50,0.75), 0 0 5px darkblue;
+	
+}
+.money h4{
+	font-size: 35px;
+	font-weight: 400;
+}
