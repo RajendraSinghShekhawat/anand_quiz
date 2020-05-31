@@ -123,17 +123,22 @@ font-size: 35px;
   text-decoration: none;
   cursor: pointer;
 }
+.about-content h1 span{
+	font-size: 1.2em;
+	font-family: Snell Roundhand, cursive, Brushstroke fantasy;
+	color: #FF0;
+}
 
 .money {
 	background-image: url("../images/money.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #FFFF88;
+	color: #FFFF00;
 	text-shadow: 2px 1px 2px black, 0 0 5px rgba(0,0,50,0.75), 0 0 5px darkblue;
 	
 }
 .money h4{
-	font-size: 35px;
+	font-size: 2em;
 	font-weight: 400;
 }
 
