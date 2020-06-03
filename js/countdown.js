@@ -22,6 +22,7 @@ $(function() {
         document.getElementById("exam").style.display="block";
         document.getElementById("instruct").style.display="block";
 		document.getElementById("p1").innerHTML = "INSTRUCTIONS";
+		document.getElementById("p2").innerHTML = "Read instruction's carefully";
         $this.fadeTo('slow', .5);
         break;
     }	 

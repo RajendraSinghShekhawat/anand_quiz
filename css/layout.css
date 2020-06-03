@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg {
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.30);
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.70);
 }
 
 /* HEADER */
@@ -50,13 +50,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .logo2 {
 	text-align: center;
-	width: 50%;
-	float:right; 
+	width: 100%;
 }
 .logo {
-	text-align: center;
-	width: 50%;
-	float:left; 
+	display: inline-block;
+	width: 100%;
 }
 .logo a {
 	display: inline-block;	
@@ -121,6 +119,11 @@ ul.time li {
 	outline: none;
 }
 
+
+.txtshadow2 {
+  font-size: 5em;	 
+ }
+ 
 /* END HEADER */
 
 /* ABOUT */
@@ -151,7 +154,7 @@ ul.time li {
 /* FEATURES */
 
 .features{
-	background: rgba(0, 0, 20, 0.7);
+	background: rgba(0, 0, 20, 0.8);
 }
 .features h2{
 	color: #000;
@@ -185,7 +188,7 @@ ul.time li {
 /* SOCIAL MEDIA */
 
 .social{
-	background: #220055;
+	background: #111144;
 }
 .social-content{
 	margin: 30px 0;
@@ -395,13 +398,13 @@ ul.time li {
 		.short-text { display: none; }
 		.full-text { display: inline-block; }
 
-.time span {
-	font-size: 50px;
-	line-height: 50px;
-}
-.contact-details {
-	margin: 30px 0 0;
-}
+		.time span {
+			font-size: 50px;
+			line-height: 50px;
+		}
+		.contact-details {
+			margin: 30px 0 0;
+		}
 	}
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 976px) {
@@ -421,7 +424,12 @@ ul.time li {
 	@media only screen and (max-width: 767px) {
 		.short-text { display: none; }
 		.full-text { display: inline-block; }
-.logo {
+.txtshadow2 {
+  font-size: 2em;	 
+ }
+ .logo {
+	display: inline-block
+	text-align: center;
 	width: 100%;
 }
 .logo2 {
@@ -442,7 +450,10 @@ h6, .h6 { font-size: 10px;}
 .header {
 	padding: 2% 0 5%;
 }
-.logo {
+.txtshadow2 {
+  font-size: 4em;	 
+ }
+ .logo {
 	width: 100%;
 }
 .logo2 {
@@ -481,7 +492,7 @@ ul.time li {
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 480px) {
+	@media only screen and (max-width: 479px) {
 		.short-text { display: inline-block; }
 		.full-text { display: none; }
 h1, .h1 { font-size: 30px;}
@@ -490,6 +501,10 @@ h3, .h3 { font-size: 20px;}
 h4, .h4 { font-size: 16px;}
 h5, .h5 { font-size: 12px;}
 h6, .h6 { font-size: 10px;}
+
+.txtshadow2 {
+  font-size: 3em;	 
+ }
 .logo {
 	width: 100%;
 }
