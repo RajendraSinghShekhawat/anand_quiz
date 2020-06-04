@@ -197,14 +197,14 @@ ul.time li {
 	font-size: 30px;
 	color: #fff;
 	font-weight: 500;
-	text-shadow: 0px 1px 1px black, 0 0 2px rgba(100,0,0,0.05), 0 0 1px darkblue;
+	text-shadow: 0px 1px 1px black;
 }
 .social-content h4{
 	font-size: 18px;
 	color: #FFC;
 	font-weight: 500;
 	line-height: 1.5;
-	text-shadow: 0px 1px 1px black, 0 0 2px rgba(100,0,0,0.05), 0 0 1px darkblue;
+	text-shadow: 0px 1px 1px black;
 }
 .social-content h4 span{
 	text-decoration: underline;
