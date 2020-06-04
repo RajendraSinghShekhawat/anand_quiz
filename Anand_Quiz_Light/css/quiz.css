@@ -17,26 +17,26 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
  .txtshadow {
   font-size: 1.8em;	 
   color: #034387;
-  text-shadow: 0px 1px 1px black, 0 0 2px rgba(0,0,0,0.80), 0 0 2px darkblue;
+  text-shadow: 0px 1px 1px black;
  }
  .txtshadow #presents{
   color: #344;
-  text-shadow: 0px 0px 1px black, 0 0 1px rgba(0,0,255,0.75);
+  text-shadow: 0px 0px 1px black;
  }
  
  
  .txtshadow2 {
   line-height: 1.2em;
   color: #fae900;
-  text-shadow: 2px 2px 2px black, 0 0 15px rgba(255,255,0,0.75), 0 0 5px rgba(100,100,0,0.75);
+  text-shadow: 2px 2px 2px black;
  }
  .txtshadow2 #play{	 
   color: #e30a02;
-  text-shadow: 2px 2px 2px black, 0 0 15px rgba(255,50,50,0.75), 0 0 5px rgba(100,10,10,0.75);
+  text-shadow: 2px 2px 2px black;
  }
  .txtshadow2 #code{	 
   color: #4d9902;
-  text-shadow: 2px 2px 2px black, 0 0 15px rgba(50,255,50,0.75), 0 0 5px rgba(10,100,10,0.75);
+  text-shadow: 2px 2px 2px black;
  }
  
  
@@ -51,7 +51,7 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
 	font-size: 20px;
 	font-weight: 600;
 	position: relative;
-	text-shadow: 0px 0px 1px black, 0 0 2px rgba(100,0,0,0.75);
+	text-shadow: 0px 0px 1px black;
  }
   
  .loca {
@@ -59,7 +59,7 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
 	font-size: 12px;
 	font-weight: 400;
 	position: relative;
-	text-shadow: 1px 1px 3px black, 0px 0px 300px rgba(0,0,0,0);
+	text-shadow: 2px 2px 2px black;
  }
   
  }
@@ -95,7 +95,7 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
 	font-size: 1.2em;
 	font-family: cursive, Snell Roundhand, Brushstroke fantasy;
 	color: #034b94;
-	text-shadow: 1px 0px 1px black, 0 0 5px rgba(50,50,50,0.05);
+	text-shadow: 1px 2px 2px black;
 }
 
 .money {
