@@ -35,7 +35,13 @@
       
       function triggerEvents() {
 		  	
-		//if(secondsLeft <= 86400){	document.getElementById("about").style.display="none";    } 
+		//if(secondsLeft <= 86400){	document.getElementById("about").style.display="none";    }
+		if(secondsLeft <= 345600){	
+		document.getElementById("about").style.display="none";
+        document.getElementById("instruct").style.display="block";
+		document.getElementById("p1").innerHTML = "INSTRUCTIONS";
+		document.getElementById("p2").innerHTML = "Read instruction's carefully";    
+		}
 		 
         secondsLeft--;
         if(secondsLeft < 0) {
