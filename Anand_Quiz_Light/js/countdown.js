@@ -23,6 +23,7 @@ $(function() {
         document.getElementById("instruct").style.display="block";
 		document.getElementById("p1").innerHTML = "GUIDELINES";
 		document.getElementById("p2").innerHTML = "Read exam guideline carefully";
+		document.getElementById("infor").innerHTML = "Examination result will soon be updated";
         $this.fadeTo('slow', .5);
         break;
     }	 

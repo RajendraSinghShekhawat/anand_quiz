@@ -36,8 +36,9 @@
       function triggerEvents() {
 		  	
 		//if(secondsLeft <= 43200){	document.getElementById("about").style.display="none";    }
-		if(secondsLeft <= 345600){	
+		if(secondsLeft <= 172800){	
 		document.getElementById("about").style.display="none";
+        document.getElementById("exam").style.display="block";
         document.getElementById("instruct").style.display="block";
 		document.getElementById("p1").innerHTML = "GUIDELINES";
 		document.getElementById("p2").innerHTML = "Read exam guideline carefully";    
