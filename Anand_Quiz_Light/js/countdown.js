@@ -21,8 +21,8 @@ $(function() {
 		document.getElementById("about").style.display="none";
         document.getElementById("exam").style.display="block";
         document.getElementById("instruct").style.display="block";
-		document.getElementById("p1").innerHTML = "INSTRUCTIONS";
-		document.getElementById("p2").innerHTML = "Read instruction's carefully";
+		document.getElementById("p1").innerHTML = "GUIDELINES";
+		document.getElementById("p2").innerHTML = "Read exam guideline carefully";
         $this.fadeTo('slow', .5);
         break;
     }	 
