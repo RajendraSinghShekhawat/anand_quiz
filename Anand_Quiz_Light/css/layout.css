@@ -132,6 +132,7 @@ ul.time li {
 
 .about{
 	background: #fff;
+	padding-bottom:30px;
 }
 .about h2{
 	color: #000;
@@ -290,7 +291,7 @@ ul.time li {
 /* FOOTER */
 
 .footer {
-    background: #fff;
+    background: #DDD;
 	display: block;
 	margin: 0;
 	padding: 15px 0;

@@ -36,7 +36,7 @@
       function triggerEvents() {
 		  	
 		//if(secondsLeft <= 43200){	document.getElementById("about").style.display="none";    }
-		if(secondsLeft <= 172800){	
+		if(secondsLeft <= 216000){	
 		document.getElementById("about").style.display="none";
         document.getElementById("exam").style.display="block";
         document.getElementById("instruct").style.display="block";
