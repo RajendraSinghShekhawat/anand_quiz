@@ -196,3 +196,11 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
   text-align: center;
   padding: 1rem 3rem;
 }
+
+.comprul li{
+	font-weight:100;
+}
+
+.comprul li a{
+	color:#69faf3;
+}

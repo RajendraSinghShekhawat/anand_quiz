@@ -1,6 +1,6 @@
 // Javascript
 $(function() {
-  var currentDate = new Date("July 25, 2020 11:00:10").getTime();
+  var currentDate = new Date("July 31, 2020 11:00:10").getTime();
 //  $('.countdown').countdown("yyyy/MM/dd/hh:mm:ss", function(event)
 //	Delete line 6
   $('.time').countdown(currentDate.valueOf(), function(event)
