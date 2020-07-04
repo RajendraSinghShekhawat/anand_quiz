@@ -1,6 +1,6 @@
 // Javascript
 $(function() {
-  var currentDate = new Date("June 30, 2020 13:00:10").getTime();
+  var currentDate = new Date("July 25, 2020 13:00:10").getTime();
 //  $('.countdown').countdown("yyyy/MM/dd/hh:mm:ss", function(event)
 //	Delete line 6
   $('.time').countdown(currentDate.valueOf(), function(event)
@@ -23,7 +23,7 @@ $(function() {
         document.getElementById("instruct").style.display="block";
 		document.getElementById("p1").innerHTML = "GUIDELINES";
 		document.getElementById("p2").innerHTML = "Read exam guideline carefully";
-		document.getElementById("infor").innerHTML = "Examination result will soon be updated";
+		document.getElementById("infor").innerHTML = "Exam Results will be updated through a webinar on 28th July by Technical Committee members of IBM and Sapient.";
         $this.fadeTo('slow', .5);
         break;
     }	 
