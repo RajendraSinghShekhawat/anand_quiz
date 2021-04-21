@@ -25,10 +25,12 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
  }
  
  
- .txtshadow2 {
+ .txtshadow2 { 
+  font-size: 6em;
   line-height: 1.2em;
   color: #fae900;
   text-shadow: 2px 2px 2px black;
+  font-family: 'Brush Script MT', cursive, Courier, Courier New, monospace;
  }
  .txtshadow2 #play{	 
   color: #e30a02;
