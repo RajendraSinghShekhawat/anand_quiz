@@ -1,0 +1,211 @@
+#exam { display: none;} 
+/*#instruct { display: none;}*/
+#anandlogo{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 28px 2px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
+  }
+ .blue{
+	 color: #034b94;
+ }
+ .yellow{
+	 color: #FFFF00;
+ }
+ .txtshadow {  
+  font-size: 1.5em;	 
+  color: #034387;
+  text-shadow: 0px 1px 1px black;
+ }
+ .txtshadow #presents{
+  color: #344;
+  text-shadow: 0px 0px 1px black;
+ }
+ 
+ 
+ .txtshadow2 { 
+  line-height: 1.2em;
+  color: #fae900;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Brush Script MT', cursive, Courier, Courier New, monospace;
+ }
+ .txtshadow2 #play{	 
+  color: #e30a02;
+  text-shadow: 2px 2px 2px black;
+ }
+ .txtshadow2 #code{	 
+  color: #4d9902;
+  text-shadow: 2px 2px 2px black;
+ }
+ .txtshadow2 #two{	 
+  color: #a60d97;
+  text-shadow: 2px 2px 2px black;
+ }
+ 
+ 
+ .txtshadow3 {	 
+  color: #111;
+  font-weight:1000;
+  /* text-shadow: 2px 2px 2px black, 0 0 15px rgba(255,0,0,0.75), 0 0 5px rgba(100,100,0,0.75); 
+  text-shadow: 2px 2px 2px black, 0 0 15px rgba(0,0,0,0.75), 0 0 5px rgba(100,100,0,0.75); */
+ }
+ .locat {
+	color: #111;
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	text-shadow: 0px 0px 1px black;
+ }
+  
+ .loca {
+	 color: #111;
+	font-size: 12px;
+	font-weight: 400;
+	position: relative;
+	text-shadow: 2px 2px 2px black;
+ }
+  
+ }
+ .modal-cont {
+	font-weight:400;
+	text-align: center;
+	height: 100vh;
+	overflow:"scroll";
+	margin: 10%;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.95); /* Black w/ opacity */
+}
+.modal-cont h3 {
+	color: #FF9;
+	font-size:26px;
+	font-weight:500;
+	text-decoration: underline;
+}
+.modal-cont h4 {
+	color: #FF9;
+	font-size:20px;
+	font-weight:400;  
+	text-align: left;
+}
+.modal-cont p {
+  font-size:16px;
+  font-weight:350; 
+  text-align: justify;
+}
+
+
+.about-content h1 span{
+	font-size: 1.2em;
+	font-family: cursive, Snell Roundhand, Brushstroke fantasy;
+	color: #034b94;
+	text-shadow: 1px 2px 2px black;
+}
+
+.money {
+	color: #53eefc;
+	text-shadow: 0px 1px 1px black;
+	
+}
+.money h4{
+	line-height: 1.5em;
+	color: #000;
+	font-size: 1.7em;
+	font-weight:500;
+	font-weight: 400;
+}
+
+.goback {
+	font-size: 10px;
+	float: right;
+	position: fixed; /* Stay in place */
+	z-index: 99; /* Sit on top */
+	bottom: 5px;
+	right: 5px;
+}
+.backButton {	
+	float: right;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.backButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.backButton:active {
+	position:relative;
+	top:1px;
+}
+
+.expert img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+	
+} 
+
+.social-content img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	
+} 
+.alertPulse-css {
+    animation: alertPulse 1s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 5000;
+    background: #9A2727; /* you need this to specify a color to pulse to */
+}
+
+.banner {
+  font-family: system-ui;
+  margin: 1rem;
+  border-radius: 100px;
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.alertPulse-css2 {
+    animation: alertPulse 1s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    background: #fae22f; /* you need this to specify a color to pulse to */
+}
+
+.banner2 {
+	width:50%;
+  font-family: system-ui;
+  margin: 1rem;
+  border-radius: 100px;
+  font-size: 2.2rem;
+  color: black;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+.comprul li{
+	font-weight:100;
+}
+
+.comprul li a{
+	color:#69faf3;
+}
