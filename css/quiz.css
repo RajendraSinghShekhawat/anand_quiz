@@ -172,7 +172,12 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
     animation: alertPulse 1s ease-out;
     animation-iteration-count: infinite;
     opacity: 5000;
-    background: #9A2727; /* you need this to specify a color to pulse to */
+    background: rgb(19,127,216); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(19,127,216,1) 0%, rgba(1,69,142,1) 20%, rgba(15,90,170,1) 52%, rgba(15,90,170,1) 78%, rgba(15,90,170,1) 82%, rgba(15,90,170,1) 82%, rgba(19,127,216,1) 94%, rgba(19,127,216,1) 94%, rgba(40,88,155,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(19,127,216,1) 0%,rgba(1,69,142,1) 20%,rgba(15,90,170,1) 52%,rgba(15,90,170,1) 78%,rgba(15,90,170,1) 82%,rgba(15,90,170,1) 82%,rgba(19,127,216,1) 94%,rgba(19,127,216,1) 94%,rgba(40,88,155,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(19,127,216,1) 0%,rgba(1,69,142,1) 20%,rgba(15,90,170,1) 52%,rgba(15,90,170,1) 78%,rgba(15,90,170,1) 82%,rgba(15,90,170,1) 82%,rgba(19,127,216,1) 94%,rgba(19,127,216,1) 94%,rgba(40,88,155,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#137fd8', endColorstr='#28589b',GradientType=0 ); /* IE6-9 */
+
 }
 
 .banner {
@@ -188,7 +193,12 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
     animation: alertPulse 1s ease-out;
     animation-iteration-count: infinite;
     opacity: 1;
-    background: #fae22f; /* you need this to specify a color to pulse to */
+    background: rgb(19,127,216); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(19,127,216,1) 0%, rgba(1,69,142,1) 20%, rgba(15,90,170,1) 52%, rgba(15,90,170,1) 78%, rgba(15,90,170,1) 82%, rgba(15,90,170,1) 82%, rgba(19,127,216,1) 94%, rgba(19,127,216,1) 94%, rgba(40,88,155,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(19,127,216,1) 0%,rgba(1,69,142,1) 20%,rgba(15,90,170,1) 52%,rgba(15,90,170,1) 78%,rgba(15,90,170,1) 82%,rgba(15,90,170,1) 82%,rgba(19,127,216,1) 94%,rgba(19,127,216,1) 94%,rgba(40,88,155,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(19,127,216,1) 0%,rgba(1,69,142,1) 20%,rgba(15,90,170,1) 52%,rgba(15,90,170,1) 78%,rgba(15,90,170,1) 82%,rgba(15,90,170,1) 82%,rgba(19,127,216,1) 94%,rgba(19,127,216,1) 94%,rgba(40,88,155,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#137fd8', endColorstr='#28589b',GradientType=0 ); /* IE6-9 */
+
 }
 
 .banner2 {
@@ -197,7 +207,7 @@ box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.80);
   margin: 1rem;
   border-radius: 100px;
   font-size: 2.2rem;
-  color: black;
+  color: white;
   text-align: center;
   padding: 1rem 3rem;
 }
